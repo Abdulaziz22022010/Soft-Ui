@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ P a{
+    text-decoration: none;
+    color: inherit;
+}
+.carusel{
+    height: 400px;
+}
+.wrapper {
+    display: flex;
+  
+}
+
+.sidebar {
+    width: 248px;
+    height: 1002;
+    
+   background-color: antiquewhite;
+}
+.sidebar-menu{
+    margin: 0 auto;
+
+}
+.sidebar-card svg{
+    margin-left: 30px;
+    border-radius: 8px;
+
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.07),0px 4px 6px -1px rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);
+}
+.text{
+    margin-top: 10px;
+}
+.sidebar-card{
+    margin-bottom: 20px;
+    border-radius: 8px;
+display: flex;
+align-items: center;
+gap: 30px;
+box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05);
+background: rgb(255, 255, 255);
+}
+.mein {
+    width: 80%;
+    height: auto;
+
+}
+.clock-container {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 30px;
+    text-align: center;
+    margin-right: 30px;
+  }
+  
+  #clock {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+  }
+
+/* NABRDBR---------------------------------------------------------------- */
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    border: 0px solid;
+
+}
+
+.navbar-left {
+    color: rgb(37, 47, 64);
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: -0.44px;
+    text-align: left;
+}
+
+.navbar-right {
+    display: flex;
+    /* align-items: center; */
+}
+
+input {
+    border: 0px solid rgb(210, 214, 218);
+
+
+
+}
+
+
+
+.input-box {
+    border: 1px solid rgb(210, 214, 218);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    margin-right: 16px;
+
+    display: flex;
+    width: 197px;
+    height: 40px;
+}
+
+/* svg {
+    margin-top: 13px;
+} */
+
+
+
+.sig-in {
+    display: flex;
+    gap: 17px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sig-inhref {
+    text-decoration: none;
+    color: rgb(103, 116, 142);
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+
+    padding-bottom: 9px;
+    text-align: center;
+
+
+}
+
+/* header-
+---------------------------------------------------- */
+.row {
+    gap: 24px;
+}
+
+.col {
+    width: 262px;
+    height: 82px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+
+
+}
+
+.card-text {
+    color: rgb(103, 116, 142);
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: left;
+    padding-left: 16px;
+    margin-top: 16px;
+}
+
+.card-number {
+    color: rgb(37, 47, 64);
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: -0.55px;
+    text-align: left;
+    padding-left: 16px;
+}
+
+.card-foiz {
+    color: rgb(130, 214, 22);
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: left;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+.one-card-left {
+    display: flex;
+    border-radius: 16px;
+    width: 644px;
+    height: 253px;
+    margin-top: 30px;
+
+    box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05);
+  
+}
+
+.card-left {
+    margin-left: 21px;
+    margin-top: 10px;
+
+}
+
+.card-two-text {
+    color: rgb(103, 116, 142);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.44px;
+    text-align: left;
+}
+
+.card-two-title {
+    color: rgb(37, 47, 64);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: -0.55px;
+    text-align: left;
+}
+
+.card-two-talk {
+    color: rgb(103, 116, 142);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.44px;
+    text-align: left;
+}
+
+.card-two-sentance {
+    color: rgb(103, 116, 142);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.39px;
+    text-align: left;
+    padding-top: 23px;
+    ;
+}
+
+.card-two-image {
+    margin-left: 110px;
+    margin-top: 14px;
+    margin-right: 14px;
+}
+
+/* ----------------------------------- */
+.row-card-one {
+    display: flex;
+}
+
+
+.card-two-border {
+    border-radius: 16px;
+    width: 520px;
+    height: 253px;
+
+    box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+}
+
+.one-card-raight {
+    padding-left: 30px;
+    margin-top: 16px;
+
+}
+/* ---------------------------------------------------------------------------- */
+.card-two-border {
+    background-image: url(photo_2024-04-20_12-49-38.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 70px;
+
+
+}
+
+.card-two-border-text {
+    /* padding-top: px;
+    margin-left: 300px; */
+    color: rgb(178, 94, 94);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.39px;
+    text-align: left;
+}
+
+.card-two-border-title {
+    color: rgb(255, 255, 255);
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: -0.55px;
+    text-align: left;
+    padding-top: 50px;
+
+}
+
+.card-two-border-talk {
+    color: rgb(255, 255, 255);
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.44px;
+    text-align: left;
+}
+
+/* --------------------------------- */
+.row-card-two{
+    margin-top: 24px;
+}
+.two-card {
+    border-radius: 16px;
+    border: 1px solid red;
+    box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    width: 454px;
+    height: 445px;
+}
+
+.two-card-image {
+    width: 422px;
+    height: 221px;
+    margin: 16px;
+}
+
+.two-card-text {
+    color: rgb(37, 47, 64);
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: -0.44px;
+    text-align: left;
+    margin-top: 16px;
+    margin-left: 23px;
+}
+
+.two-card-number {
+    color: rgb(103, 116, 142);
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.39px;
+    text-align: left;
+    margin-left: 23px;
+}
+
+.two-card-number-text {
+    color: rgb(37, 47, 64);
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: left;
+}
+.orqa-fon{
+    height: 600px;
+    background-image: url(./img/opa.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
